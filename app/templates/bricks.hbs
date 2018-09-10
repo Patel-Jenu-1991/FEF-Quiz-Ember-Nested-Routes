@@ -1,1 +1,15 @@
-{{outlet}}
+<h1>All Brick Categories</h1>
+
+<p>
+  {{link-to 'View all red bricks' 'bricks.red' id="link-bricks-red"}}
+</p>
+
+<p>
+  {{link-to 'View all blue bricks' 'bricks.blue' id="link-bricks-blue"}}
+</p>
+
+<div class="container">
+  <div class="contents">
+    {{outlet}}
+  </div>
+</div>
